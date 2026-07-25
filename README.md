@@ -1,115 +1,147 @@
-Mini Project Report
-Title
+# 📊 Employee Attendance Dashboard | Power BI
 
-Employee Attendance Dashboard Using Power BI
+An interactive Employee Attendance Dashboard built using **Microsoft Power BI** to analyze employee attendance, Work From Home (WFH), and Sick Leave (SL) trends. This dashboard helps HR teams and managers monitor workforce attendance through dynamic visualizations and key performance indicators.
 
-1. Introduction
+---
 
-Organizations generate attendance data every day, making it difficult to monitor employee presence, work-from-home patterns, and leave records manually. Power BI provides an effective solution for transforming raw attendance data into interactive dashboards that help management make informed decisions.
+## 📌 Project Overview
 
-This project develops an Employee Attendance Dashboard using Microsoft Power BI. The dashboard visualizes key attendance metrics such as Presence Percentage, Work From Home (WFH) Percentage, and Sick Leave (SL) Percentage through interactive charts, tables, and KPI cards.
+The Employee Attendance Dashboard transforms raw attendance data into meaningful business insights. It provides an easy-to-understand visualization of employee attendance patterns, enabling better workforce planning and decision-making.
 
-2. Objectives
-To analyze employee attendance records.
-To calculate overall Presence, WFH, and Sick Leave percentages.
-To monitor attendance trends over time.
-To compare attendance performance among employees.
-To provide an interactive dashboard for management.
-3. Tools Used
-Tool	Purpose
-Microsoft Power BI	Dashboard Development
-Power Query	Data Cleaning and Transformation
-DAX	Calculated Measures
-Excel Dataset	Attendance Data Source
-4. Dataset Description
+---
 
-The dataset contains employee attendance information with the following fields:
+## 🚀 Features
 
-Employee Name
-Date
-Month
-Day of Week
-Attendance Status
-Presence %
-Work From Home %
-Sick Leave %
+- 📅 Month-wise filtering using slicers
+- 📈 Presence Percentage (KPI)
+- 🏠 Work From Home (WFH) Percentage
+- 🤒 Sick Leave (SL) Percentage
+- 👨‍💼 Employee-wise attendance analysis
+- 📊 Daily attendance trends
+- 📋 Attendance matrix by employee and date
+- 📉 Interactive Area Charts
+- 🔍 Dynamic filtering and cross-highlighting
 
-The data is cleaned and transformed using Power Query before visualization.
+---
 
-5. Dashboard Components
-a) KPI Cards
+## 🛠️ Tools & Technologies
 
-The dashboard displays three important KPIs:
+- Microsoft Power BI
+- Power Query
+- DAX (Data Analysis Expressions)
+- Microsoft Excel (Dataset)
 
-Presence %
-Work From Home %
-Sick Leave %
+---
 
-These cards provide an instant overview of overall attendance performance.
+## 📊 Dashboard Visualizations
 
-b) Month Slicer
+- KPI Cards
+  - Presence %
+  - Work From Home %
+  - Sick Leave %
 
-A Month slicer allows users to filter attendance information for a selected month, making the dashboard interactive.
+- Area Charts
+  - Presence Trend
+  - WFH Trend
+  - Sick Leave Trend
 
-c) Employee Attendance Table
+- Tables
+  - Employee-wise Attendance
+  - Day-wise Attendance Statistics
 
-Displays:
+- Matrix
+  - Employee Attendance Status by Date
 
-Employee Name
-Presence %
-WFH %
-Sick Leave %
+- Slicer
+  - Month Filter
 
-This helps compare employee attendance performance.
+---
 
-d) Attendance Matrix
+## 📂 Project Structure
 
-Shows employee attendance status for every date, enabling detailed tracking of daily attendance.
+```
+Employee-Attendance-Dashboard/
+│
+├── Attendance Dashboard.pbix
+├── Dataset.xlsx
+├── Dashboard Screenshot.png
+└── README.md
+```
 
-e) Attendance Trend Charts
+---
 
-Three Area Charts visualize:
+## 📷 Dashboard Preview
 
-Presence % by Date
-WFH % by Date
-Sick Leave % by Date
+> Add a screenshot of your Power BI dashboard here.
 
-These charts help identify attendance trends over time.
+Example:
 
-f) Day-wise Analysis
+```
+images/dashboard.png
+```
 
-Separate tables display:
+After uploading the screenshot, display it like this:
 
-Presence % by Day of Week
-WFH % by Day of Week
-Sick Leave % by Day of Week
+```md
+![Dashboard Preview](images/dashboard.png)
+```
 
-This helps identify attendance patterns across weekdays.
+---
 
-6. Features of the Dashboard
-Interactive Month Filter
-Dynamic KPI Cards
-Employee Performance Comparison
-Date-wise Attendance Monitoring
-Day-wise Attendance Analysis
-Easy-to-understand Visualizations
-User-friendly Dashboard Layout
-7. Benefits
-Reduces manual attendance analysis.
-Provides quick insights into employee attendance.
-Helps HR monitor attendance trends.
-Supports better workforce planning.
-Enables faster decision-making.
-8. Learning Outcomes
+## 🎯 Project Objectives
+
+- Analyze employee attendance records.
+- Track Presence, WFH, and Sick Leave percentages.
+- Identify attendance trends over time.
+- Compare employee attendance performance.
+- Create an interactive business intelligence dashboard.
+
+---
+
+## 📈 Key Insights
+
+- Overall employee presence can be monitored at a glance.
+- WFH trends help understand remote work patterns.
+- Sick Leave analysis identifies leave frequency.
+- Daily attendance trends highlight peak and low attendance periods.
+- Employee comparison helps identify attendance consistency.
+
+---
+
+## 💡 Learning Outcomes
 
 Through this project, I learned:
 
-Importing data into Power BI
-Data transformation using Power Query
-Creating DAX measures
-Designing interactive dashboards
-Using KPI Cards, Tables, Matrix, Area Charts, and Slicers
-Building business intelligence reports
-9. Conclusion
+- Data cleaning using Power Query
+- Creating calculated measures with DAX
+- Building interactive dashboards
+- Designing business intelligence reports
+- Using slicers, KPI cards, matrices, and charts effectively
 
-The Employee Attendance Dashboard successfully transforms attendance data into meaningful visual insights. By using Power BI's interactive features, users can monitor employee attendance, Work From Home trends, and Sick Leave percentages efficiently. The dashboard improves data analysis, supports informed decision-making, and demonstrates the practical application of business intelligence in workforce management.
+---
+
+## 📌 Future Improvements
+
+- Department-wise attendance analysis
+- Employee performance dashboard
+- Leave prediction using Machine Learning
+- Real-time attendance integration
+- Mobile-friendly dashboard design
+
+---
+
+## 👨‍💻 Author
+
+**Prasanth S**
+
+Aspiring Data Scientist | Power BI | Python | SQL | Excel
+
+🔗 GitHub: https://github.com/prasanths2503-max
+
+🔗 LinkedIn: https://www.linkedin.com/in/prasanth-s-949397323
+
+---
+
+## ⭐ If you like this project
+
+If you found this project useful, please consider giving it a ⭐ on GitHub!
