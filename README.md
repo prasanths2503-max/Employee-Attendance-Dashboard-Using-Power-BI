@@ -73,7 +73,7 @@ Employee-Attendance-Dashboard/
 ## 📷 Dashboard Preview
 
 ```md
-![Dashboard Preview]<img width="767" height="374" alt="Employee Attendance Dashboard" src="https://github.com/user-attachments/assets/e90bde60-764c-4358-bf75-d38c79f5a263" />
+![Dashboard Preview]![Employee Attendance Dashboard](images/dashboard.png)
 
 ```
 
