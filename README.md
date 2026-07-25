@@ -72,18 +72,9 @@ Employee-Attendance-Dashboard/
 
 ## 📷 Dashboard Preview
 
-> Add a screenshot of your Power BI dashboard here.
-
-Example:
-
-```
-images/dashboard.png
-```
-
-After uploading the screenshot, display it like this:
-
 ```md
-![Dashboard Preview](images/dashboard.png)
+![Dashboard Preview]<img width="767" height="374" alt="Employee Attendance Dashboard" src="https://github.com/user-attachments/assets/e90bde60-764c-4358-bf75-d38c79f5a263" />
+
 ```
 
 ---
